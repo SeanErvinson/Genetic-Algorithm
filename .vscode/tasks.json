@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Genetic-Algorithm.csproj"
+                "${workspaceFolder}/src/Genetic-Algorithm.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Genetic-Algorithm.csproj"
+                "${workspaceFolder}/src/Genetic-Algorithm.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Genetic-Algorithm.csproj"
+                "${workspaceFolder}/src/Genetic-Algorithm.csproj"
             ],
             "problemMatcher": "$tsc"
         }
